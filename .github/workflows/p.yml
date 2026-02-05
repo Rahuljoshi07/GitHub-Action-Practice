@@ -1,0 +1,10 @@
+name: helo
+
+on: push
+
+jobs:
+  build:
+      runs: ubuntu latest
+      
+   steps:
+        - run: echo "helo world"
